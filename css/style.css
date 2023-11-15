@@ -50,7 +50,6 @@
 
 .container-1{
     margin: 0 7%;
-    height: 100%;
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -175,6 +174,7 @@
 }
 
 .titolo-3{
+    margin: 0 7%;
     text-align: center;
     margin-top: 50px;
     min-width: 400px;
@@ -184,6 +184,7 @@
 }
 
 .container-3{
+    margin: 0 7%;
     text-align: center;
 }
 
@@ -229,12 +230,14 @@
 /* div-4 */
 
 .sfondo-4{
+    margin: 0 7%;
     background-color: rgb(166, 143, 220);
     padding: 20px;
 
 }
 
 .benefits{
+    margin: 0 7%;
     text-align: center;
     padding: 30px 0;
     background-color: rgb(166, 143, 220);
@@ -261,6 +264,50 @@
     border-radius: 25px;
 }
 
+/* div-5 */
+
+.container-5{
+    margin: 0 7%;
+    padding: 30px 0;
+}
+
+.container-5-a h2{
+    color: rgb(166, 143, 220);
+    padding-bottom: 30px;
+}
+
+.container-5-b{
+    margin: 0 7%;
+    padding: 30px 0;
+
+}
+
+.container-5-b h3{
+    color: rgb(166, 143, 220);
+    margin: 30px 0;
+}
+
+.container-5-b button{
+    padding: 5px;
+    background-color: rgb(166, 143, 220);
+    border-radius: 20px;
+}
+
+
+.img-container-5{
+    width: 250px;
+    height: 250px;
+}
+.img-container-5 img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+
+
 
 
 
@@ -268,7 +315,6 @@
 
 @media screen and (min-width: 768px) {
     .container-1{
-        max-width: 992px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -319,6 +365,19 @@
         width: calc(100% / 2 - 15px);
 
     }
+    /* div-5 */
+    .container-5{
+        display: flex;
+        flex-wrap:wrap ;
+        justify-content: space-between;
+    }
+
+    .container-5-a{
+        width: calc(55% - 20px);
+    }
+    .container-5-b{
+        width: calc(35% - 20px);
+    }
 
 }
 
@@ -329,9 +388,13 @@
         
     }
 
-    .box-1-big .big-img{
-        width: 200%;
-        
+    .img-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+    }
+    .img-container img{
+        width: 100%;
     }
     /* div-2 */
     .container-2{
